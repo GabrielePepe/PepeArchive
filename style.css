@@ -1,0 +1,70 @@
+body {
+    font-family: 'W95FA', sans-serif;
+    background-image: url('Assets/bg.bmp'); /* Percorso dell'immagine */
+    background-size: cover; /* Adatta l'immagine all'intera area visibile */
+    background-position: center; /* Centra l'immagine */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+    background-attachment: fixed; /* Mantiene l'immagine fissa quando si scrolla la pagina */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #e7e3d0bd;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+hr {
+    border: none; /* Rimuove il bordo predefinito */
+    height: 4px;  /* Altezza del divisore */
+    background-color: #000000; /* Colore del divisore */
+    margin: 20px 0; /* Spaziatura sopra e sotto il divisore */
+}
+
+.footer-link {
+    position: absolute; /* Posizionamento assoluto */
+    bottom: 10px;       /* Distanza dal fondo della pagina */
+    left: 10px;         /* Distanza dal lato sinistro della pagina */
+    color: #007bff;     /* Colore del testo del link */
+    text-decoration: none; /* Nessuna sottolineatura */
+    text-shadow: 1px 1px 1px black;
+}
+
+.footer-link:hover {
+    text-decoration: underline; /* Sottolinea il testo quando si passa sopra con il mouse */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.folder-list li {
+    margin: 20px 0; /* Aumentato il margine per più spazio tra i link */
+    padding-left: 35px; /* Spazio per l'icona della cartella */
+    background: url('images/folder-icon.png') no-repeat left center; /* Percorso dell'icona */
+    background-size: 25px 25px; /* Dimensioni dell'icona */
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 14px; /* Aumenta la dimensione del testo dei link */
+    line-height : 1.7;
+}
+
+a:hover {
+    text-decoration: underline;
+}
